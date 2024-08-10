@@ -22,16 +22,6 @@
       format("svg");
 }
 
-/* 
-Theme Name: FreedomSquare
-Text Domain: FreedomSquare
-Version: 1.0
-Description: FreedomSquare custom theme for wordpress
-Tags: freedom-square, responsive
-Author: Nika Kudukhashvili
-Author URI: https://github.com/Kuduxaaa
-*/
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 @font-face {
@@ -469,90 +459,6 @@ main {
   text-align: center;
 }
 
-@media only screen and (max-width: 980px) {
-  .yt-video {
-    width: 100%;
-  }
-
-  footer .container .flex > div {
-    width: 100%;
-  }
-
-  .navbar-nav .container .menu {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
-    display: none;
-    padding-top: 50px;
-    overflow-y: auto;
-    height: 100%;
-  }
-
-  .open-menu {
-    display: block;
-  }
-
-  .navbar-nav .container .menu .menu-item {
-    margin: 0px;
-  }
-
-  .close-menu {
-    display: block;
-  }
-
-  footer .flex {
-    display: block;
-  }
-
-  footer {
-    text-align: center;
-  }
-
-  footer .right {
-    justify-content: center !important;
-  }
-
-  footer ul {
-    text-align: center;
-    margin-top: 60px;
-  }
-
-  .navbar-nav
-    .container
-    .menu
-    .menu-item
-    a:not(.color-donation a):not(.color-strong-geo a) {
-    color: #000;
-  }
-
-  .navbar-nav .container .menu .menu-item a {
-    width: 100%;
-    margin: 20px 0px !important;
-    display: inline-block;
-    text-align: center;
-    line-height: 30px !important;
-  }
-
-  .topbar .container {
-    display: block;
-    text-align: center;
-  }
-
-  .flex {
-    justify-content: center;
-  }
-
-  .navbar-nav .container .menu .menu-item .dropdown-menu {
-    position: inherit;
-    background-color: white;
-    box-shadow: none;
-    margin-bottom: 70px;
-    border-bottom: 1px solid #00000014;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   .navbar-nav .container .logo img {
     max-width: 200px;
@@ -728,5 +634,109 @@ main {
 
   .post h2 {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .popup-inner {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .popup__photo {
+    display: none;
+  }
+
+  .popup__text {
+    width: 100%;
+  }
+
+  .popup__close {
+    right: 20px;
+    top: 20px;
+  }
+
+  .yt-video {
+    width: 100%;
+  }
+
+  footer .container .flex > div {
+    width: 100%;
+  }
+
+  .navbar-nav .container .menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: none;
+    padding-top: 50px;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .open-menu {
+    display: block;
+  }
+
+  .navbar-nav .container .menu .menu-item {
+    margin: 0px;
+  }
+
+  .close-menu {
+    display: block;
+  }
+
+  footer .flex {
+    display: block;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .right {
+    justify-content: center !important;
+  }
+
+  footer ul {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .navbar-nav
+    .container
+    .menu
+    .menu-item
+    a:not(.color-donation a):not(.color-strong-geo a) {
+    color: #000;
+  }
+
+  .navbar-nav .container .menu .menu-item a {
+    width: 100%;
+    margin: 20px 0px !important;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px !important;
+  }
+
+  .topbar .container {
+    display: block;
+    text-align: center;
+  }
+
+  .flex {
+    justify-content: center;
+  }
+
+  .navbar-nav .container .menu .menu-item .dropdown-menu {
+    position: inherit;
+    background-color: white;
+    box-shadow: none;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #00000014;
   }
 }
